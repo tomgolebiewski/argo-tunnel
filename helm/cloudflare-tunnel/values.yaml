@@ -12,6 +12,11 @@ cloudflare:
   secret: ""
   # If true, turn on WARP routing for TCP
   enableWarp: false
+  # @param existingSecret Name of the existing secret with credentials.json 
+  # e.g.:
+  # existingSecret: at-secret
+  existingSecret: ""
+  
   # Define ingress rules for the tunnel. See
   # https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/configuration/configuration-file/ingress
   ingress: []
